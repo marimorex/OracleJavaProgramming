@@ -1,4 +1,4 @@
-package oracle_course_test;
+package dataStructures;
 
 import java.util.LinkedList;
 
