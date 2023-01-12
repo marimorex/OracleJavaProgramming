@@ -25,6 +25,9 @@ public class VarTest {
 		
 		System.out.println(result);
 		
+		
+		 
+		
 		/*
 		Scanner in = new Scanner(System.in);
 		

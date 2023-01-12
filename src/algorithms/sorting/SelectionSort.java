@@ -9,7 +9,7 @@ public class SelectionSort {
 		Generics.displayValues(numbers);
 	}
 
-	static void selectionSort(int[] numbers) {
+	public static void selectionSort(int[] numbers) {
 		int indexMin =0; // the index of the smallest number
 		for (int i = 0; i < numbers.length; i++) {
 			indexMin = i;
