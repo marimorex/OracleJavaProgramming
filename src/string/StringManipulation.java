@@ -1,4 +1,4 @@
-package String;
+package string;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,6 +14,13 @@ public class StringManipulation {
 		System.out.println("The array has " + words.size() + " words");
 		Collections.sort(words);
 		System.out.println(words);
+		
+		String sentence2 = "This is my sentence";
+		
+		String[] words2 = sentence2.split(" ");
+		for (String wordd : words2) System.out.print(wordd + ", ");
+		String[] tokens = sentence2.split("i");
+		for (String token : tokens) System.out.print(token + ", ");
 	}
 
 	public static void stringSentenceSplit(String sentence, ArrayList<String> words ) {
